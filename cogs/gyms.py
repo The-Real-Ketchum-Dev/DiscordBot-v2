@@ -10,7 +10,7 @@ class Regions:
     @commands.command(pass_context=True)
     async def trading(self,ctx):
         """Trading Info"""
-        await self.bot.say("Hey " + ctx.message.author.mention + " you have been on the list for trading.")
+        await self.bot.say("Hey " + ctx.message.author.mention + " you have been added to the list for trading.")
 
     @commands.group(pass_context=True)
     async def regions(self,ctx):
